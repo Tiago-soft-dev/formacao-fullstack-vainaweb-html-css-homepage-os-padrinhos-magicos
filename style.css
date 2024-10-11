@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  background-color: #111111;
+  display: flex;
+  justify-content: space-around;
+  height: 15vh;
+  align-items: center;
+}
+header section {
+  width: 30%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header section button {
+  color: #fff;
+  border: none;
+  font-size: 32px;
+  padding: 10px;
+  border-radius: 10px;
+}
+header section .botaoVermelho {
+  background-color: #df0712;
+}
+header section .botaoPreto {
+  background-color: transparent;
+  border: solid;
+}
+
+.tituloEpisodios {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+  font-size: 34px;
+  padding: 60px;
+}
+.tituloEpisodios h2 {
+  font-weight: 700;
+}
+.tituloEpisodios span {
+  font-weight: 400;
+}
+
+main {
+  background-color: #181818;
+  color: #fff;
+  height: 110vh;
+  display: flex;
+  padding: 40px;
+}
+
+.episodios {
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+}
+.episodios section {
+  width: 25%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.episodios h3 {
+  font-size: 36px;
+}
+.episodios p {
+  font-size: 24px;
+}
+
+footer {
+  background-color: #111111;
+  height: 10vh;
+  color: #fff;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-weight: 500;
+}
+footer p {
+  padding-left: 20px;
+}/*# sourceMappingURL=style.css.map */

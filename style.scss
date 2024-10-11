@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;              
+}
+
+     header{
+        background-color: #111111;
+        display: flex;
+        justify-content: space-around;
+        height: 15vh;
+        align-items: center;
+
+        section{
+        
+            width: 30%;
+            height: 10vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    
+            button{
+                color: #fff;
+                border: none;
+                font-size: 32px;
+                padding: 10px;
+                border-radius: 10px;
+            }
+    
+            .botaoVermelho{
+                background-color: #df0712;
+            }
+    
+            .botaoPreto{
+                background-color: transparent;
+                border: solid;
+            }
+         }
+
+     }
+
+   
+
+     .tituloEpisodios{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 20vh;
+        font-size: 34px;
+        padding: 60px;
+
+        h2{
+            font-weight: 700;
+        }
+
+        span{
+            font-weight: 400;
+        }
+     }
+
+     main {
+        background-color: #181818;
+        color: #fff;
+        height: 110vh;
+        display: flex;
+        padding: 40px;
+     }
+
+     .episodios{
+        
+        height: 70vh;
+        display: flex;
+        justify-content: space-around;
+
+
+        section{
+            
+            width: 25%;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        // img{
+        //     width: 20vw;
+        // }
+
+        h3{
+            font-size: 36px;
+        }
+
+        p{
+            font-size: 24px;
+        }
+     }
+
+footer{
+    background-color: #111111;
+    height: 10vh;
+    color: #fff;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-weight: 500;
+    
+    p {
+        padding-left: 20px;
+    }
+}
